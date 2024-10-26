@@ -28,3 +28,5 @@ In the main for loop, it first iterate each permutation from the generated permu
 Therefore, the time complexity of the worst case is $O(nn!)+O(nn!)\in\Theta(n*n!)$; the best case occur, when the array is already sorted in the first permutation, in which the time complexity is $O(1)+O(n)\in\Theta(n)$, where $O(1)$ stands for the generated permutation, $O(n)$ stands for the array checking.
 
 Generating the permutations randomly can be risky, becuase it could generate the same permutation mutiple times, thus increase the time to find the sorted permutation, lead to a worst case $O(n*n!)$. However, in the other hand, if lucky enough, the sorted permutation can be found very quick since the permutations is generated ramdomly, which may lead to the best case time complexity $O(n)$
+
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.” --Doris Yan
